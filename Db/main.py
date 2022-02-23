@@ -6,6 +6,6 @@ def reply_start(msg):
     user = msg.from_user.first_name
     link = msg.from_user.username
     
-    bot.send_message(cid, )
+    bot.send_message(cid, "Hello")
 
 bot.infinity_polling()
